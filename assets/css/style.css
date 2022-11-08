@@ -33,13 +33,10 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
+header nav li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
 a {
