@@ -15,6 +15,7 @@ header {
     color: #ffffff;
 }
 
+/* changed all of the .header class selectors to attribute selectors */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -33,21 +34,25 @@ header nav {
     font-size: 20px;
 }
 
+/* removed the redundent ul element and selector */
 header nav li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
 
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* still haven't figured out what this is doing */
 /* p {
     font-size: 16px;
 } */
 
+/* as opposed to the original .hero class selector, i've reset it here to have the picture be an html element in order to be able to add an alt attribute to it */ 
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +64,12 @@ a {
     
 }
 
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 article{
     margin-bottom: 20px;
     padding: 50px;
@@ -68,10 +79,10 @@ article{
     color: #ffffff;
 }
 
+/* removed the myriad of redundent class selectors here for an attribute selector */
 article img {
     max-height: 200px;
 }
-
 
 article h2 {
     margin-bottom: 20px;
@@ -88,12 +99,7 @@ article h2 {
     margin-left: 25px;
 }
 
-section {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* changed the benefits class selector for an attribute selector along with changing the div attribute to be an aside */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -105,6 +111,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* removed redundent class selectors here and consolodated to an attribute selector  */
 summary {
     margin-bottom: 32px;
     color: #ffffff;
@@ -120,6 +127,7 @@ summary img {
     margin: 10px auto;
     max-width: 150px;
 }
+
 
 footer {
     padding: 30px;
