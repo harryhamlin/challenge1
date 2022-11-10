@@ -41,13 +41,12 @@ header nav li {
     list-style-type: none;
 }
 
-
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* still haven't figured out what this is doing */
+/* browser default is 16px so this isn't necessary */
 /* p {
     font-size: 16px;
 } */
@@ -57,12 +56,8 @@ a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
-    /* background-size: cover;
-    background-position: center; */
     height: auto;
-    
-}
+    }
 
 section {
     width: 75%;
@@ -79,20 +74,20 @@ article{
     color: #ffffff;
 }
 
-/* removed the myriad of redundent class selectors here for an attribute selector */
+/* removed the myriad of redundent class selectors here for an attribute selector as well as combining the left side images into a single selector here */
 article img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
-
 article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-#float-right {
+/* Used the already existing id selector used for the nav link here to format the right laying image, taking out some margin to account for the anove selector */
+#online-reputation-management img {
     float: right;
     margin-left: 25px;
     margin-right: 0px;
@@ -126,7 +121,6 @@ summary img {
     margin: 10px auto;
     max-width: 150px;
 }
-
 
 footer {
     padding: 30px;
