@@ -13,3 +13,5 @@ I employed the use of alt attributes, a discriptive title, semantic HTML element
 Many css attributes were redundant and coule be more simply placed in the css file as either attribute selectors or removed entirely.
 
 Many of the HTML sections were dividing using <div> elements. In order to increase accessibility, I replaced many of them with <section> <aside> <nav> etc to be more accessible.
+
+Due date
